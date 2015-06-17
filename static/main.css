@@ -1,0 +1,64 @@
+/* this is the main css file */
+
+html {
+	font-family: sans-serif;
+}
+
+.error {
+	color:red;
+}
+
+.notice {
+	color:green;
+	font-style:italic;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	padding: 0px;
+}
+header, footer {
+	display: block;
+	/* border: 1px solid black; */
+	color: white;
+	text-shadow: 1px 1px 1px rgb(152, 148, 148);
+}
+
+header {
+	height: 40px;
+	background: rgb(199, 197, 197);
+	width: 100%;
+	box-sizing: border-box;
+}
+
+header li {
+	display: inline-block;
+	list-style: none;
+}
+
+header a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+header a:hover {
+	background: grey;
+}
+
+.navbar {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.pull-right {
+	float: right;
+}
+
+.clearfix {
+	clear: both;
+}

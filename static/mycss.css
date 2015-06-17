@@ -1,0 +1,82 @@
+.my-wrapper {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.27);
+    box-sizing: border-box;
+    height: auto;
+    margin: 50px auto 0;
+    padding: 37px;
+    position: relative;
+    top: 50%;
+    width: 320px;
+    z-index: 1;
+}
+.input-post {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e4e4e4;
+    border-radius: 3px 3px 0 0;
+    box-sizing: border-box;
+    color: #3c4752;
+    font-size: 14px;
+    height: auto;
+    line-height: 18px;
+    margin: 20px;
+    max-height: 60vh;
+    min-height: 52px;
+    outline: medium none;
+    padding: 16px 16px 16px 16px;
+    width:600px;
+
+}
+
+.error {
+	color:red;
+}
+
+
+
+.post-line {
+    margin:15px;    
+    
+}
+
+.like {
+    margin: 0px 15px;
+    color:  rgb(173,174,177);
+}
+
+.comment-detail {
+    margin:0px 0px 15px 0px ;
+}
+
+
+.detail {
+    margin:5px 15px 15px 15px;
+}
+
+
+.content {
+    font-size:x-large;
+
+}
+
+.name {
+    font-size:medium;
+    color:#1aaf5d;
+}
+
+.comment {
+    color:#999;
+    font-size:xx-small;
+
+}
+
+
+.buttomless {
+    margin-bottom: 0px;
+    padding-bottom:15px;
+}
+
+.buttomless-comment {
+    margin-bottom: 0px;
+}

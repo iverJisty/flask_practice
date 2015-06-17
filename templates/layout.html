@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% block head %}
+	<title>MyApp</title>
+	<meta charset=utf-8 />
+	<link rel="stylesheet" type="text/css" href="{{url_for('static', filename="main.css")}}" />
+	<link rel="stylesheet" href="{{url_for('static',filename="bootstrap.min.css")}}" />
+	<link rel="stylesheet" href="{{url_for('static',filename="mycss.css")}}" />
+	<script src="{{url_for('static',filename="jquery-1.11.3.min.js")}}" ></script>
+	<script src="{{url_for('static',filename="bootstrap.min.js")}}" ></script>
+	{% endblock %}
+</head>
+<body>
+	<div class="container">
+		<header>
+			<ul class="navbar">
+				<li class="trademark">MyApp</li>
+				<li><a href="{{url_for('profile')}}">Profiles</a></li>
+				<li class="pull-right"><a href="{{url_for('logout')}}">Logout</a></li>
+			</ul>
+		</header>
+		<div class="clearfix"></div>
+		{% block content %}	
+		{% endblock %}
+		<footer>
+		</footer>
+	</div>
+</body>
+</html>
